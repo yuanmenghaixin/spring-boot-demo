@@ -7,3 +7,7 @@
 *.project
 *.springBeans
 *.bin
+.DS_Store
+.idea/
+*.iml
+target/

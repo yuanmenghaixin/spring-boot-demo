@@ -15,7 +15,7 @@ public class WebController {
 	@RequestMapping("index")
 	public String index(ModelMap map){
 		logger.info("这里是controller");
-		map.put("title", "hello world");
+		map.put("title", "hello world后端来的数据");
 		return "index"; // 注意，不要在最前面加上/，linux下面会出错
 	}
 

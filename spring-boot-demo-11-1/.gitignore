@@ -1,1 +1,13 @@
-/bin/
+*/target/
+*.project
+*.classpath
+*.project
+*.settings
+*.mvn
+*.project
+*.springBeans
+*.bin
+.DS_Store
+.idea/
+*.iml
+target/
